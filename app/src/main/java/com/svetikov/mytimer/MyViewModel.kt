@@ -29,6 +29,7 @@ class MyViewModel : ViewModel() {
     fun calculateExercise(maxExercise:Float):List<Float>{
 
         return listOf(
+            maxExercise,
             maxExercise*0.80f,
             maxExercise*0.70f,
             maxExercise*0.65f,
